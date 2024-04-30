@@ -6,7 +6,7 @@ import pandas as pd
 address = "CNN Fear And Greed KOR_For Git.xlsx"
 
 
-def pulling_dates_up(start: str, end: str) -> list:  # start, end format are 'yyyy-mm'
+def pulling_dates_up(start: str, end: str) -> list:  # start, end format are 'yyyy-mm-dd'
     """
     pulling date data from excel files
     :param start: data from, "YYYY-mm-dd"
